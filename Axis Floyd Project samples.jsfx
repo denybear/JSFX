@@ -1,182 +1,394 @@
-desc:       MIDI Sample Namer
-version:    1.0
-author:     denybear
-tags:       midi samples naming 
-//link:       https://github.com/chkhld/jsfx/
-//screenshot: https://github.com/chkhld/jsfx/blob/main/assets/screenshots/midi_chord_trigger.png
+desc:          Axis Floyd Project samples namer
+version:     1.0
+author:          denybear
+tags:          samples naming
+//link:          https://github.com/chkhld/jsfx/
+//screenshot:     https://github.com/chkhld/jsfx/blob/main/assets/screenshots/midi_chord_trigger.png
 about:
- # MIDI Sample Namer
- 
- The idea is to have a single playable octave of root notes, and control the
- type of chord these root notes trigger, as well as the MIDI octave on which
- these chords are triggered, from two other sections on the keyboard.
+ # Axis Floyd Project samples namer
+
+ To be used live only; the idea is to be able to select the PF album that hosts the sample
+ Then the FX displays the list of samples in a window, to help select the correct sample
+ Sample is played with Samplomatic5000
 
 // ----------------------------------------------------------------------------
 
 
 //slider1:albums=0<0,5,1{DSOTM,WYWH,ANIMALS,DIVISION BELL,MEDDLE,OTHER}>Album names
 
-
 @init
-  
-  // Various MIDI codes for better readability
-  MIDI_note_off = 0x80;
-  MIDI_note_on  = 0x90;
-  MIDI_CC = 0xB0;
+	// bank 1
+	i = 16;
+
+	notetosend [i] = 0;
+	strcpy (i, "ANIMALS-Pigs.mp3");
+	i+=1;
+	
+	notetosend [i] = 1;
+	strcpy (i, "ANIMALS-Sheep.mp3");
+	i+=1;
+
+	notetosend [i] = 3;
+	strcpy (i, "TDSOTM-FrightenedofDying.mp3");
+	i+=1;
+
+	notetosend [i] = 4;
+	strcpy (i, "TDSOTM-GreatGigVoice.mp3");
+	i+=1;
+
+	notetosend [i] = 5;
+	strcpy (i, "TDSOTM-MoneyBegins-Coinsandcashmachine.mp3");
+	i+=1;
+
+	notetosend [i] = 6;
+	strcpy (i, "TDSOTM-Moneyending.mp3");
+	i+=1;
+
+	notetosend [i] = 7;
+	strcpy (i, "TDSOTM-OnTheRun+ClocksNoSynthSeq.mp3");
+	i+=1;
+
+	notetosend [i] = 8;
+	strcpy (i, "TDSOTM-Risata.mp3");
+	i+=1;
+
+	notetosend [i] = 9;
+	strcpy (i, "TDSOTM-Speak to me.mp3");
+	i+=1;
+
+	notetosend [i] = 10;
+	strcpy (i, "TDSOTM-ThereisnoDarkSideintheMoon.mp3");
+	i+=1;
+
+	notetosend [i] = 11;
+	strcpy (i, "TDSOTM-Time_intro_rototom.mp3");
+	i+=1;
+
+	notetosend [i] = 12;
+	strcpy (i, "TDSOTM-Timebegins-ClocksandTicks.mp3");
+	i+=1;
+
+	notetosend [i] = 13;
+	strcpy (i, "");
+	i+=1;
+
+	notetosend [i] = 14;
+	strcpy (i, "");
+	i+=1;
+
+	
+	//bank 2
+	i = 31;
+
+	notetosend [i] = 13;
+	strcpy (i, "MEDDLE-Echoes Final.mp3");
+	i+=1;
+
+	notetosend [i] = 14;
+	strcpy (i, "MEDDLE-One_Winds.mp3");
+	i+=1;
+
+	notetosend [i] = 15;
+	strcpy (i, "MEDDLE-oneofthesedays.mp3");
+	i+=1;
+
+	notetosend [i] = 16;
+	strcpy (i, "MEDDLE-OneOfTheseDays-IntroWind.mp3");
+	i+=1;
+
+	notetosend [i] = 17;
+	strcpy (i, "MEDDLE-OneOfTheseDays-OutroWind.mp3");
+	i+=1;
+
+	notetosend [i] = 18;
+	strcpy (i, "MORE-Cirrus_Minor_Birds.mp3");
+	i+=1;
+
+	notetosend [i] = 19;
+	strcpy (i, "MORE-Green_Seagulls.mp3");
+	i+=1;
+
+	notetosend [i] = 20;
+	strcpy (i, "TPATGOD-IntroAstronomy.mp3");
+	i+=1;
+
+	notetosend [i] = 21;
+	strcpy (i, "THEWALL-ComfortablyNumbAAAAA.mp3");
+	i+=1;
+
+	notetosend [i] = 22;
+	strcpy (i, "THEWALL-Comfortably-Numb-intro.mp3");
+	i+=1;
+
+	notetosend [i] = 23;
+	strcpy (i, "THEWALL-EmptySpaces.mp3");
+	i+=1;
+
+	notetosend [i] = 24;
+	strcpy (i, "THEWALL-goodbyecruelworld.mp3");
+	i+=1;
+
+	notetosend [i] = 25;
+	strcpy (i, "THEWALL-Helicopterwithvocals.mp3");
+	i+=1;
+
+	notetosend [i] = 26;
+	strcpy (i, "THEWALL-IntroMother.mp3");
+	i+=1;
+
+	notetosend [i] = 27;
+	strcpy (i, "");
+	i+=1;
+
+	notetosend [i] = 28;
+	strcpy (i, "");
+	i+=1;
+
+	notetosend [i] = 29;
+	strcpy (i, "");
+	i+=1;
+
+
+	//bank 3
+	i = 46;
+
+	notetosend [i] = 27;
+	strcpy (i, "WYWH-Chimes1.mp3");
+	i+=1;
+
+	notetosend [i] = 28;
+	strcpy (i, "WYWH-Chimes1B.mp3");
+	i+=1;
+
+	notetosend [i] = 29;
+	strcpy (i, "WYWH-Chimes2.mp3");
+	i+=1;
+
+	notetosend [i] = 30;
+	strcpy (i, "WYWH-Chimes2B.mp3");
+	i+=1;
+
+	notetosend [i] = 31;
+	strcpy (i, "WYWH-Chimes3.mp3");
+	i+=1;
+
+	notetosend [i] = 32;
+	strcpy (i, "WYWH-Chimes4.mp3");
+	i+=1;
+
+	notetosend [i] = 33;
+	strcpy (i, "WYWH-Chimes5.mp3");
+	i+=1;
+
+	notetosend [i] = 34;
+	strcpy (i, "WYWH-D.mp3");
+	i+=1;
+
+	notetosend [i] = 35;
+	strcpy (i, "WYWH-Gm.mp3");
+	i+=1;
+
+	notetosend [i] = 36;
+	strcpy (i, "WYWH-Lpplayerandvoices.mp3");
+	i+=1;
+
+	notetosend [i] = 37;
+	strcpy (i, "WYWH-WelcomeIntro.mp3");
+	i+=1;
+
+	notetosend [i] = 38;
+	strcpy (i, "WYWH-WelcomeOut.mp3");
+	i+=1;
+
+	notetosend [i] = 39;
+	strcpy (i, "WYWH-wind.mp3");
+	i+=1;
+
+	notetosend [i] = 40;
+	strcpy (i, "");
+	i+=1;
+
+	notetosend [i] = 41;
+	strcpy (i, "");
+	i+=1;
+
+	notetosend [i] = 42;
+	strcpy (i, "");
+	i+=1;
+
+	notetosend [i] = 43;
+	strcpy (i, "");
+	i+=1;
+
+	notetosend [i] = 44;
+	strcpy (i, "");
+	i+=1;
+
+
+	// init notes and notes  names
+	i = 1;
+
+	note [i] = 60;
+	strcpy (i, "C3");
+	i+=1;
+	note [i] = 62;
+	strcpy (i, "D3");
+	i+=1;
+	note [i] = 64;
+	strcpy (i, "E3");
+	i+=1;
+	note [i] = 65;
+	strcpy (i, "F3");
+	i+=1;
+	note [i] = 67;
+	strcpy (i, "G3");
+	i+=1;
+	note [i] = 69;
+	strcpy (i, "A3");
+	i+=1;
+	note [i] = 71;
+	strcpy (i, "B3");
+	i+=1;
+
+	note [i] = 72;
+	strcpy (i, "C4");
+	i+=1;
+	note [i] = 74;
+	strcpy (i, "D4");
+	i+=1;
+	note [i] = 76;
+	strcpy (i, "E4");
+	i+=1;
+	note [i] = 77;
+	strcpy (i, "F4");
+	i+=1;
+	note [i] = 79;
+	strcpy (i, "G4");
+	i+=1;
+	note [i] = 81;
+	strcpy (i, "A4");
+	i+=1;
+	note [i] = 83;
+	strcpy (i, "B4");
+	i+=1;
+
+	note [i] = 84;
+	strcpy (i, "C5");
+	i+=1;
+
+	// Various MIDI codes for better readability
+	MIDI_note_off = 0x80;
+	MIDI_note_on = 0x90;
+	MIDI_CC = 0xB0;
+	CC_valid = 1;                    // if 1: take CC into account; if 0, do not take CC into account
+	banknumber = 1;                    // first bank out of 3
+	lastbank = 3;
+	UIbankchange = 1;
+	UInotechange = 0;
 
 
 @slider
-  
+
 @block
-  
-  // Cycle through incoming MIDI messages
-  while(midirecv(offset, msg1, msg2) ?
-  (
-    // Flag to avoid notes outside the designated sections playing (and sticking!)
-    note_was_handled = 0;
-    
-    // Extract note properties
-    status   = msg1 & $xF0; // Message type
-    channel  = msg1 & $x0F; // Input channel
-    note     = msg2 & $x7F; // Note number
-    velocity = msg2 >> 8;   // Note velocity
 
-	// test whether this is note-on, note-off or CC
+	// Cycle through incoming MIDI messages
+	while (midirecv(offset, msg1, msg2, msg3)) (
 
-	// if CC
-	
+		// Extract note properties
+		status = msg1 & 0xF0;          // Message type
+		channel     = msg1 & 0x0F;          // Input channel
+		notevalue = msg2 & 0x7F;     // Note number
+		velocity = msg3 & 0x7F;          // Note velocity
 
-	// if note-on
-	(album == "WYWH") ? (
-		note==60 ? (		// C3
-			sample = "Run Forest";
-			noteToPlay = 0x10;
-		);
-		note==62 ? (		// D3
-			sample = "Run Forest";
-			noteToPlay = 0x11;
-		);
-    );
-	(album == "DSOTM") ? (
-		note==60 ? (		// C3
-			sample = "Run Forest";
-			noteToPlay = 0x10;
-		);
-		note==62 ? (		// D3
-			sample = "Run Forest";
-			noteToPlay = 0x11;
-		);
-    );
+		// test whether this is note-on, note-off or CC
+		// if CC 0x01
+		((status == MIDI_CC) && (notevalue == 0x01)) ? (
 
-    
-    // If an octave switching key was pressed
-    (note >= ks_octave_lo && note <= ks_octave_hi) ?
-    (
-      // Update root octave number
-      root_octave = note - ks_octave_lo;
-      
-      // 12 notes in an octave * root octave number
-      note_octave = root_octave * 12;
-      
-      // Flag that this note input was processed
-      note_was_handled = 1;
-    );
-    
-    // If a chord switching key was pressed
-    (note >= ks_chord_lo && note <= ks_chord_hi) ?
-    (
-      // Key offset inside the range of 12 chord switching keys
-      chord_switch_nr = note - ks_chord_lo;
-      
-      // Flag that this note input was processed
-      note_was_handled = 1;
-    );
-    
-    // Update chord type
-    chord_type = chord_types[chord_switch_nr];
-    
-    // If an actual root note key was pressed
-    (note >= ks_root_lo && note <= ks_root_hi) ? 
-    (
-      // If the PLAYING NOTE on the PLAYING CHANNEL receives a NOTE ON or NOTE OFF message, or
-      // If a DIFFERENT NOTE on any OTHER CHANNELS receives a NOTE ON message
-      ((note == playing_notes[root] && channel == playing_channel && (status == MIDI_note_on || status == MIDI_note_off)) || 
-       (note != playing_notes[root] && status  == MIDI_note_on)) ?
-      (
-        // Iterator for loop below
-        chord_note_nr = 0;
-        
-        // Cycle through all "playing partial note" buffers
-        while (chord_note_nr < chord_notes)
-        (
-          // If a note at this partial position is currently already playing
-          (playing_notes[chord_note_nr] != none) ?
-          (
-            // Send a MIDI note off command for this partial note (on the old channel)
-            midisend(offset, MIDI_note_off | playing_channel, playing_notes[chord_note_nr] | (velocity << 8));
-            
-            // Reset the "note playing" flag for this partial chord note
-            playing_notes[chord_note_nr] = none;
-          );
-          
-          // Increment iterator and step to next note in chord
-          chord_note_nr = chord_note_nr + 1;
-        );
-      );
-      
-      // Update the "currently playing on channel nr" buffer variable
-      playing_channel = channel;
-      
-      // Figure out the offset of the pressed root key inside the root key range
-      root_offset = note - ks_root_lo;
-      
-      // Iterator for loop below
-      chord_note_nr = 0;
-      
-      // Cycle through all note buffers
-      while (chord_note_nr < chord_notes)
-      (
-        // The offset of this partial chord note in relation to the root note
-        partial_offset = chords[chord_type + chord_note_nr];
-        
-        // If this partial chord note has an actual offset assigned
-        (partial_offset != none) ?
-        (
-          // Calculate the MIDI note nr of this partial chord note
-          midi_note_nr = note_octave + root_offset + partial_offset;
-          
-          // If the calculated MIDI note number is inside the valid note range
-          (midi_note_nr < 128) ?
-          (
-            // Send the MIDI message out
-            midisend(offset, msg1, midi_note_nr | (velocity << 8));
-            
-            // Mark this partial's MIDI note number as "currently playing"
-            playing_notes[chord_note_nr] = midi_note_nr;
-          )
-          : // If the calculated MIDI note for this partial is outside the valid note range
-          (
-            // Increase "note of chord" iterator to be out of bounds i.e. escape loop
-            chord_note_nr = 6;
-          );
-        );
-        
-        // Increment "note of chord" interator
-        chord_note_nr = chord_note_nr + 1;
-      );
-      
-      // Flag that this note input was processed
-      note_was_handled = 1;
-    );
-    
-    // If the incoming note was NOT handled by one of the previous blocks i.e. it's out of bounds
-    (note_was_handled == 0) ?
-    (
-      // Send the MIDI message out to stop this note
-      midisend(offset, MIDI_note_off | channel, note | (velocity << 8));
-    );
-  ));
-  
+			CC_valid == 1 ? (               // we shall take CC into account
+				(velocity < 10) ? (
+					CC_valid = 0;          // we don't listen to CC anymore unless we go through 0
+					(banknumber > 1) ? (banknumber -= 1);          // change banknumber
+					UIbankchange = 1;                                        // change display of bank
+				);
+				(velocity > 117) ? (
+					CC_valid = 0;          // we don't listen to CC anymore unless we go through 0
+					(banknumber < lastbank) ? (banknumber += 1);          // change banknumber
+					UIbankchange = 1;                                        // change display of bank
+				);
+			) : (
+				((velocity > 53) && (velocity < 73)) ? (
+					CC_valid = 1;          // we allow CC
+				);
+			);
+		);
+
+		// if note-on or note-off
+		((status == MIDI_note_off) || (status == MIDI_note_on)) ? (
+			found = -1;
+			i = 1;
+			while (i < 16) (
+				(notevalue == note [i]) ? (found = i);          // find which note has been pressed
+				i += 1;
+			);
+			
+			(found != -1) ? (
+				notevalue = notetosend [(banknumber * 15) + i];          // replace note value to  be sent
+				msg2 = notevalue;                                             // Note number to send to MIDI
+
+				(status == MIDI_note_off) ? notechange = 1;          // erase the "now playing" on screen
+				(status == MIDI_note_on) ? notechange = 2;          // print the "now playing" on screen
+			);
+		);
+
+		// Send a MIDI command instead of previous one
+		midisend (offset, msg1, msg2, msg3);
+	);
+
 @sample
 
-@gfx
+@gfx 400 400
+
+	// display sample name
+	function DisplaySampleName (str, l, w) (
+		gfx_set (0,0,0);
+		gfx_rect(0,0,l,w);
+		gfx_x = 0;
+		gfx_y = 0;
+		gfx_set (1,1,1);
+		gfx_drawstr(str);
+	);
+
+	gfx_x = gfx_y = 0;
+	gfx_set (1,1,1);
+//     gfx_setfont(1,"Courier New", 20);
+
+	(UIbankchange == 1) ? (
+		gfx_drawstr ("Bank # ");
+		gfx_drawnumber(banknumber, 0);
+		gfx_drawstr ("\n");
+
+		i = 1;
+		while (i < 16) (
+			strcpy (str, i);
+			strcat (str, " - ");
+			strcat (str, ((banknumber * 15) + i));
+			strcat (str, "\n");
+			gfx_drawstr (str);
+			i += 1;
+		);
+		UIbankchange = 0;          // no need to redisplay
+	);
+
+	(UInotechange == 1) ? (          // clear "now playing"
+		UInotechange = 0;          // no need to redisplay
+		gfx_drawstr ("CLEAR");
+	);
+
+	(UInotechange == 2) ? (          // print "now playing"
+		strcpy (str, "NOW PLAYING: ");
+//          strcat (str, ((banknumber * 15) + found));
+// HERE: CHECK IF STRING IS EMPTY
+		UInotechange = 0;          // no need to redisplay
+	);
+
+
