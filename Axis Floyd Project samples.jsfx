@@ -20,11 +20,11 @@ about:
 	// bank 1
 	i = 16;
 
-	notetosend [i] = 0;
+	notetosend [i] = 1;
 	strcpy (i, "ANIMALS-Pigs.mp3");
 	i+=1;
 	
-	notetosend [i] = 1;
+	notetosend [i] = 2;
 	strcpy (i, "ANIMALS-Sheep.mp3");
 	i+=1;
 
@@ -76,203 +76,198 @@ about:
 	strcpy (i, "");
 	i+=1;
 
+	notetosend [i] = 15;
+	strcpy (i, "");
+	i+=1;
+
+
 	
 	//bank 2
 	i = 31;
 
-	notetosend [i] = 13;
+	notetosend [i] = 16;
 	strcpy (i, "MEDDLE-Echoes Final.mp3");
 	i+=1;
 
-	notetosend [i] = 14;
+	notetosend [i] = 17;
 	strcpy (i, "MEDDLE-One_Winds.mp3");
 	i+=1;
 
-	notetosend [i] = 15;
+	notetosend [i] = 18;
 	strcpy (i, "MEDDLE-oneofthesedays.mp3");
 	i+=1;
 
-	notetosend [i] = 16;
+	notetosend [i] = 19;
 	strcpy (i, "MEDDLE-OneOfTheseDays-IntroWind.mp3");
 	i+=1;
 
-	notetosend [i] = 17;
+	notetosend [i] = 20;
 	strcpy (i, "MEDDLE-OneOfTheseDays-OutroWind.mp3");
 	i+=1;
 
-	notetosend [i] = 18;
+	notetosend [i] = 21;
 	strcpy (i, "MORE-Cirrus_Minor_Birds.mp3");
 	i+=1;
 
-	notetosend [i] = 19;
+	notetosend [i] = 22;
 	strcpy (i, "MORE-Green_Seagulls.mp3");
 	i+=1;
 
-	notetosend [i] = 20;
+	notetosend [i] = 23;
 	strcpy (i, "TPATGOD-IntroAstronomy.mp3");
 	i+=1;
 
-	notetosend [i] = 21;
+	notetosend [i] = 24;
 	strcpy (i, "THEWALL-ComfortablyNumbAAAAA.mp3");
 	i+=1;
 
-	notetosend [i] = 22;
+	notetosend [i] = 25;
 	strcpy (i, "THEWALL-Comfortably-Numb-intro.mp3");
 	i+=1;
 
-	notetosend [i] = 23;
+	notetosend [i] = 26;
 	strcpy (i, "THEWALL-EmptySpaces.mp3");
 	i+=1;
 
-	notetosend [i] = 24;
+	notetosend [i] = 27;
 	strcpy (i, "THEWALL-goodbyecruelworld.mp3");
 	i+=1;
 
-	notetosend [i] = 25;
+	notetosend [i] = 28;
 	strcpy (i, "THEWALL-Helicopterwithvocals.mp3");
 	i+=1;
 
-	notetosend [i] = 26;
+	notetosend [i] = 29;
 	strcpy (i, "THEWALL-IntroMother.mp3");
 	i+=1;
 
-	notetosend [i] = 27;
+	notetosend [i] = 30;
 	strcpy (i, "");
 	i+=1;
 
-	notetosend [i] = 28;
+	notetosend [i] = 31;
 	strcpy (i, "");
 	i+=1;
 
-	notetosend [i] = 29;
-	strcpy (i, "");
-	i+=1;
 
 
 	//bank 3
 	i = 46;
 
-	notetosend [i] = 27;
+	notetosend [i] = 32;
 	strcpy (i, "WYWH-Chimes1.mp3");
 	i+=1;
 
-	notetosend [i] = 28;
+	notetosend [i] = 33;
 	strcpy (i, "WYWH-Chimes1B.mp3");
 	i+=1;
 
-	notetosend [i] = 29;
+	notetosend [i] = 34;
 	strcpy (i, "WYWH-Chimes2.mp3");
 	i+=1;
 
-	notetosend [i] = 30;
+	notetosend [i] = 35;
 	strcpy (i, "WYWH-Chimes2B.mp3");
 	i+=1;
 
-	notetosend [i] = 31;
+	notetosend [i] = 36;
 	strcpy (i, "WYWH-Chimes3.mp3");
 	i+=1;
 
-	notetosend [i] = 32;
+	notetosend [i] = 37;
 	strcpy (i, "WYWH-Chimes4.mp3");
 	i+=1;
 
-	notetosend [i] = 33;
+	notetosend [i] = 38;
 	strcpy (i, "WYWH-Chimes5.mp3");
 	i+=1;
 
-	notetosend [i] = 34;
+	notetosend [i] = 39;
 	strcpy (i, "WYWH-D.mp3");
 	i+=1;
 
-	notetosend [i] = 35;
+	notetosend [i] = 40;
 	strcpy (i, "WYWH-Gm.mp3");
 	i+=1;
 
-	notetosend [i] = 36;
+	notetosend [i] = 41;
 	strcpy (i, "WYWH-Lpplayerandvoices.mp3");
 	i+=1;
 
-	notetosend [i] = 37;
+	notetosend [i] = 42;
 	strcpy (i, "WYWH-WelcomeIntro.mp3");
 	i+=1;
 
-	notetosend [i] = 38;
+	notetosend [i] = 43;
 	strcpy (i, "WYWH-WelcomeOut.mp3");
 	i+=1;
 
-	notetosend [i] = 39;
+	notetosend [i] = 44;
 	strcpy (i, "WYWH-wind.mp3");
 	i+=1;
 
-	notetosend [i] = 40;
+	notetosend [i] = 45;
 	strcpy (i, "");
 	i+=1;
 
-	notetosend [i] = 41;
+	notetosend [i] = 46;
 	strcpy (i, "");
 	i+=1;
 
-	notetosend [i] = 42;
+	notetosend [i] = 47;
 	strcpy (i, "");
 	i+=1;
 
-	notetosend [i] = 43;
-	strcpy (i, "");
-	i+=1;
-
-	notetosend [i] = 44;
-	strcpy (i, "");
-	i+=1;
 
 
 	// init notes and notes  names
-	i = 1;
+	i = 1;              // slot 0 for strings is used by system
 
-	note [i] = 60;
+	note [i] = 48;
 	strcpy (i, "C3");
 	i+=1;
-	note [i] = 62;
+	note [i] = 50;
 	strcpy (i, "D3");
 	i+=1;
-	note [i] = 64;
+	note [i] = 52;
 	strcpy (i, "E3");
 	i+=1;
-	note [i] = 65;
+	note [i] = 53;
 	strcpy (i, "F3");
 	i+=1;
-	note [i] = 67;
+	note [i] = 55;
 	strcpy (i, "G3");
 	i+=1;
-	note [i] = 69;
+	note [i] = 57;
 	strcpy (i, "A3");
 	i+=1;
-	note [i] = 71;
+	note [i] = 59;
 	strcpy (i, "B3");
 	i+=1;
 
-	note [i] = 72;
+	note [i] = 60;
 	strcpy (i, "C4");
 	i+=1;
-	note [i] = 74;
+	note [i] = 62;
 	strcpy (i, "D4");
 	i+=1;
-	note [i] = 76;
+	note [i] = 64;
 	strcpy (i, "E4");
 	i+=1;
-	note [i] = 77;
+	note [i] = 65;
 	strcpy (i, "F4");
 	i+=1;
-	note [i] = 79;
+	note [i] = 67;
 	strcpy (i, "G4");
 	i+=1;
-	note [i] = 81;
+	note [i] = 69;
 	strcpy (i, "A4");
 	i+=1;
-	note [i] = 83;
+	note [i] = 71;
 	strcpy (i, "B4");
 	i+=1;
 
-	note [i] = 84;
+	note [i] = 72;
 	strcpy (i, "C5");
 	i+=1;
 
@@ -324,19 +319,19 @@ about:
 
 		// if note-on or note-off
 		((status == MIDI_note_off) || (status == MIDI_note_on)) ? (
-			found = -1;
+			found = 0;
 			i = 1;
 			while (i < 16) (
 				(notevalue == note [i]) ? (found = i);          // find which note has been pressed
 				i += 1;
 			);
 			
-			(found != -1) ? (
-				notevalue = notetosend [(banknumber * 15) + i];          // replace note value to  be sent
+			(found != 0) ? (
+				notevalue = notetosend [(banknumber * 15) + found];          // replace note value to  be sent
 				msg2 = notevalue;                                             // Note number to send to MIDI
 
-				(status == MIDI_note_off) ? notechange = 1;          // erase the "now playing" on screen
-				(status == MIDI_note_on) ? notechange = 2;          // print the "now playing" on screen
+				(status == MIDI_note_off) ? UInotechange = 1;          // erase the "now playing" on screen
+				(status == MIDI_note_on) ? UInotechange = 2;          // print the "now playing" on screen
 			);
 		);
 
@@ -386,8 +381,10 @@ about:
 
 	(UInotechange == 2) ? (          // print "now playing"
 		strcpy (str, "NOW PLAYING: ");
-//          strcat (str, ((banknumber * 15) + found));
+		strcat (str, ((banknumber * 15) + found));
 // HERE: CHECK IF STRING IS EMPTY
+		strcat (str, "\n");
+		gfx_drawstr (str);
 		UInotechange = 0;          // no need to redisplay
 	);
 
