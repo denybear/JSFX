@@ -25,47 +25,47 @@ about:
 	i+=1;
 	
 	notetosend [i] = 2;
-	strcpy (i, "ANIMALS-Sheep.mp3");
+	strcpy (i, "ANIMALS-Sheep");
 	i+=1;
 
 	notetosend [i] = 3;
-	strcpy (i, "TDSOTM-FrightenedofDying.mp3");
+	strcpy (i, "TDSOTM-FrightenedofDying");
 	i+=1;
 
 	notetosend [i] = 4;
-	strcpy (i, "TDSOTM-GreatGigVoice.mp3");
+	strcpy (i, "TDSOTM-GreatGigVoice");
 	i+=1;
 
 	notetosend [i] = 5;
-	strcpy (i, "TDSOTM-MoneyBegins-Coinsandcashmachine.mp3");
+	strcpy (i, "TDSOTM-MoneyBegins-Coinsandcashmachine");
 	i+=1;
 
 	notetosend [i] = 6;
-	strcpy (i, "TDSOTM-Moneyending.mp3");
+	strcpy (i, "TDSOTM-Moneyending");
 	i+=1;
 
 	notetosend [i] = 7;
-	strcpy (i, "TDSOTM-OnTheRun+ClocksNoSynthSeq.mp3");
+	strcpy (i, "TDSOTM-OnTheRun+ClocksNoSynthSeq");
 	i+=1;
 
 	notetosend [i] = 8;
-	strcpy (i, "TDSOTM-Risata.mp3");
+	strcpy (i, "TDSOTM-Risata");
 	i+=1;
 
 	notetosend [i] = 9;
-	strcpy (i, "TDSOTM-Speak to me.mp3");
+	strcpy (i, "TDSOTM-Speak to me");
 	i+=1;
 
 	notetosend [i] = 10;
-	strcpy (i, "TDSOTM-ThereisnoDarkSideintheMoon.mp3");
+	strcpy (i, "TDSOTM-ThereisnoDarkSideintheMoon");
 	i+=1;
 
 	notetosend [i] = 11;
-	strcpy (i, "TDSOTM-Time_intro_rototom.mp3");
+	strcpy (i, "TDSOTM-Time_intro_rototom");
 	i+=1;
 
 	notetosend [i] = 12;
-	strcpy (i, "TDSOTM-Timebegins-ClocksandTicks.mp3");
+	strcpy (i, "TDSOTM-Timebegins-ClocksandTicks");
 	i+=1;
 
 	notetosend [i] = 13;
@@ -86,59 +86,59 @@ about:
 	i = 31;
 
 	notetosend [i] = 16;
-	strcpy (i, "MEDDLE-Echoes Final.mp3");
+	strcpy (i, "MEDDLE-Echoes Final");
 	i+=1;
 
 	notetosend [i] = 17;
-	strcpy (i, "MEDDLE-One_Winds.mp3");
+	strcpy (i, "MEDDLE-One_Winds");
 	i+=1;
 
 	notetosend [i] = 18;
-	strcpy (i, "MEDDLE-oneofthesedays.mp3");
+	strcpy (i, "MEDDLE-oneofthesedays");
 	i+=1;
 
 	notetosend [i] = 19;
-	strcpy (i, "MEDDLE-OneOfTheseDays-IntroWind.mp3");
+	strcpy (i, "MEDDLE-OneOfTheseDays-IntroWind");
 	i+=1;
 
 	notetosend [i] = 20;
-	strcpy (i, "MEDDLE-OneOfTheseDays-OutroWind.mp3");
+	strcpy (i, "MEDDLE-OneOfTheseDays-OutroWind");
 	i+=1;
 
 	notetosend [i] = 21;
-	strcpy (i, "MORE-Cirrus_Minor_Birds.mp3");
+	strcpy (i, "MORE-Cirrus_Minor_Birds");
 	i+=1;
 
 	notetosend [i] = 22;
-	strcpy (i, "MORE-Green_Seagulls.mp3");
+	strcpy (i, "MORE-Green_Seagulls");
 	i+=1;
 
 	notetosend [i] = 23;
-	strcpy (i, "TPATGOD-IntroAstronomy.mp3");
+	strcpy (i, "TPATGOD-IntroAstronomy");
 	i+=1;
 
 	notetosend [i] = 24;
-	strcpy (i, "THEWALL-ComfortablyNumbAAAAA.mp3");
+	strcpy (i, "THEWALL-ComfortablyNumbAAAAA");
 	i+=1;
 
 	notetosend [i] = 25;
-	strcpy (i, "THEWALL-Comfortably-Numb-intro.mp3");
+	strcpy (i, "THEWALL-Comfortably-Numb-intro");
 	i+=1;
 
 	notetosend [i] = 26;
-	strcpy (i, "THEWALL-EmptySpaces.mp3");
+	strcpy (i, "THEWALL-EmptySpaces");
 	i+=1;
 
 	notetosend [i] = 27;
-	strcpy (i, "THEWALL-goodbyecruelworld.mp3");
+	strcpy (i, "THEWALL-goodbyecruelworld");
 	i+=1;
 
 	notetosend [i] = 28;
-	strcpy (i, "THEWALL-Helicopterwithvocals.mp3");
+	strcpy (i, "THEWALL-Helicopterwithvocals");
 	i+=1;
 
 	notetosend [i] = 29;
-	strcpy (i, "THEWALL-IntroMother.mp3");
+	strcpy (i, "THEWALL-IntroMother");
 	i+=1;
 
 	notetosend [i] = 30;
@@ -155,55 +155,55 @@ about:
 	i = 46;
 
 	notetosend [i] = 32;
-	strcpy (i, "WYWH-Chimes1.mp3");
+	strcpy (i, "WYWH-Chimes1");
 	i+=1;
 
 	notetosend [i] = 33;
-	strcpy (i, "WYWH-Chimes1B.mp3");
+	strcpy (i, "WYWH-Chimes1B");
 	i+=1;
 
 	notetosend [i] = 34;
-	strcpy (i, "WYWH-Chimes2.mp3");
+	strcpy (i, "WYWH-Chimes2");
 	i+=1;
 
 	notetosend [i] = 35;
-	strcpy (i, "WYWH-Chimes2B.mp3");
+	strcpy (i, "WYWH-Chimes2B");
 	i+=1;
 
 	notetosend [i] = 36;
-	strcpy (i, "WYWH-Chimes3.mp3");
+	strcpy (i, "WYWH-Chimes3");
 	i+=1;
 
 	notetosend [i] = 37;
-	strcpy (i, "WYWH-Chimes4.mp3");
+	strcpy (i, "WYWH-Chimes4");
 	i+=1;
 
 	notetosend [i] = 38;
-	strcpy (i, "WYWH-Chimes5.mp3");
+	strcpy (i, "WYWH-Chimes5");
 	i+=1;
 
 	notetosend [i] = 39;
-	strcpy (i, "WYWH-D.mp3");
+	strcpy (i, "WYWH-D");
 	i+=1;
 
 	notetosend [i] = 40;
-	strcpy (i, "WYWH-Gm.mp3");
+	strcpy (i, "WYWH-Gm");
 	i+=1;
 
 	notetosend [i] = 41;
-	strcpy (i, "WYWH-Lpplayerandvoices.mp3");
+	strcpy (i, "WYWH-Lpplayerandvoices");
 	i+=1;
 
 	notetosend [i] = 42;
-	strcpy (i, "WYWH-WelcomeIntro.mp3");
+	strcpy (i, "WYWH-WelcomeIntro");
 	i+=1;
 
 	notetosend [i] = 43;
-	strcpy (i, "WYWH-WelcomeOut.mp3");
+	strcpy (i, "WYWH-WelcomeOut");
 	i+=1;
 
 	notetosend [i] = 44;
-	strcpy (i, "WYWH-wind.mp3");
+	strcpy (i, "WYWH-wind");
 	i+=1;
 
 	notetosend [i] = 45;
@@ -278,8 +278,7 @@ about:
 	CC_valid = 1;                    // if 1: take CC into account; if 0, do not take CC into account
 	banknumber = 1;                    // first bank out of 3
 	lastbank = 3;
-	UIbankchange = 1;
-	UInotechange = 0;
+	UIchange = 1;
 
 
 @slider
@@ -302,13 +301,13 @@ about:
 			CC_valid == 1 ? (               // we shall take CC into account
 				(velocity < 10) ? (
 					CC_valid = 0;          // we don't listen to CC anymore unless we go through 0
-					(banknumber > 1) ? (banknumber -= 1);          // change banknumber
-					UIbankchange = 1;                                        // change display of bank
+					(banknumber < lastbank) ? (banknumber += 1);          // change banknumber
+					UIchange = 1;                                        // change display of bank
 				);
 				(velocity > 117) ? (
 					CC_valid = 0;          // we don't listen to CC anymore unless we go through 0
-					(banknumber < lastbank) ? (banknumber += 1);          // change banknumber
-					UIbankchange = 1;                                        // change display of bank
+					(banknumber > 1) ? (banknumber -= 1);          // change banknumber
+					UIchange = 1;                                        // change display of bank
 				);
 			) : (
 				((velocity > 53) && (velocity < 73)) ? (
@@ -330,8 +329,8 @@ about:
 				notevalue = notetosend [(banknumber * 15) + found];          // replace note value to  be sent
 				msg2 = notevalue;                                             // Note number to send to MIDI
 
-				(status == MIDI_note_off) ? UInotechange = 1;          // erase the "now playing" on screen
-				(status == MIDI_note_on) ? UInotechange = 2;          // print the "now playing" on screen
+				(status == MIDI_note_off) ? UIchange = 1;          // erase the "now playing" on screen
+				(status == MIDI_note_on) ? UIchange = 2;          // print the "now playing" on screen
 			);
 		);
 
@@ -344,48 +343,39 @@ about:
 @gfx 400 400
 
 	// display sample name
-	function DisplaySampleName (str, l, w) (
-		gfx_set (0,0,0);
-		gfx_rect(0,0,l,w);
-		gfx_x = 0;
-		gfx_y = 0;
-		gfx_set (1,1,1);
-		gfx_drawstr(str);
+	function display (s, x, y, l, h, r, v, b) (
+		gfx_setfont(1,"Courier New", h);
+		gfx_set (0,0,0);         // black
+		gfx_rect(x,y,l,h);       // clear what is under
+		gfx_x = x;
+		gfx_y = y;
+		gfx_set (r,v,b);         // color
+		gfx_drawstr(s);
 	);
 
-	gfx_x = gfx_y = 0;
-	gfx_set (1,1,1);
-//     gfx_setfont(1,"Courier New", 20);
+	(UIchange != 0) ? (
 
-	(UIbankchange == 1) ? (
-		gfx_drawstr ("Bank # ");
-		gfx_drawnumber(banknumber, 0);
-		gfx_drawstr ("\n");
-
+		sprintf (str, "Bank #%d", banknumber);
+		display (str, 0, 0, 400, 40, 1, 1, 0);
+		
 		i = 1;
 		while (i < 16) (
 			strcpy (str, i);
 			strcat (str, " - ");
 			strcat (str, ((banknumber * 15) + i));
-			strcat (str, "\n");
-			gfx_drawstr (str);
+			display (str, 0, 90 + ((i-1)*35), 600, 30, 1, 1, 1);
 			i += 1;
 		);
-		UIbankchange = 0;          // no need to redisplay
-	);
 
-	(UInotechange == 1) ? (          // clear "now playing"
-		UInotechange = 0;          // no need to redisplay
-		gfx_drawstr ("CLEAR");
-	);
+		(UIchange == 1) ? (            // clear "now playing"
+			display ("", 0, 45, 400, 40, 0, 0.5, 1); // display empty string: this will erase
+		);
 
-	(UInotechange == 2) ? (          // print "now playing"
-		strcpy (str, "NOW PLAYING: ");
-		strcat (str, ((banknumber * 15) + found));
-// HERE: CHECK IF STRING IS EMPTY
-		strcat (str, "\n");
-		gfx_drawstr (str);
-		UInotechange = 0;          // no need to redisplay
-	);
+		(UIchange == 2) ? (          // print "now playing"
+			strcpy (str, ((banknumber * 15) + found));
+			display (str, 0, 45, 400, 40, 0, 0.5, 1);
+		);
 
+		UIchange = 0;          // no need to redisplay
+	);
 
