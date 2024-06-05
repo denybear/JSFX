@@ -275,6 +275,7 @@ about:
 	MIDI_note_off = 0x80;
 	MIDI_note_on = 0x90;
 	MIDI_CC = 0xB0;
+	MIDI_PITCH = 0xE0;
 	CC_valid = 1;                    // if 1: take CC into account; if 0, do not take CC into account
 	banknumber = 1;                    // first bank out of 3
 	lastbank = 3;
@@ -294,7 +295,8 @@ about:
 		notevalue = msg2 & 0x7F;     // Note number
 		velocity = msg3 & 0x7F;          // Note velocity
 
-		// test whether this is note-on, note-off or CC
+		// test whether this is note-on, note-off or CC or pitchbend
+/*
 		// if CC 0x01
 		((status == MIDI_CC) && (notevalue == 0x01)) ? (
 
@@ -315,6 +317,31 @@ about:
 				);
 			);
 		);
+*/
+
+		// if pitch bend
+		(status == MIDI_PITCH) ? (
+			pitchvalue = velocity << 7;
+			pitchvalue = pitchvalue | notevalue;    // here pitchvalue goes from 0000 to 3FFF (16383); middle is 1FFF
+			
+			CC_valid == 1 ? (               // we shall take pitch into account
+				(pitchvalue < 0xFF) ? (
+					CC_valid = 0;          // we don't listen to pitch anymore unless we go through 0
+					(banknumber > 1) ? (banknumber -= 1);          // change banknumber
+					UIchange = 1;                                        // change display of bank
+				);
+				(pitchvalue > 0x3F00) ? (
+					CC_valid = 0;          // we don't listen to pitch anymore unless we go through 0
+					(banknumber < lastbank) ? (banknumber += 1);          // change banknumber
+					UIchange = 1;                                        // change display of bank
+				);
+			) : (
+				((pitchvalue > 0x1F00) && (pitchvalue < 0x20FF)) ? (
+					CC_valid = 1;          // we allow pitch
+				);
+			);
+		);
+
 
 		// if note-on or note-off
 		((status == MIDI_note_off) || (status == MIDI_note_on)) ? (
