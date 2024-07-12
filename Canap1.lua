@@ -2,7 +2,7 @@
 function wait_for_item()
 
 	-- make sure we are not in endless loop
-	if (max_loop < 50) then
+	if (max_loop < 200) then
 		max_loop = max_loop + 1
 	else
 		endprocess ()
@@ -75,6 +75,14 @@ rec_end_bar = "rec_end_bar" .. track_number
 if not reaper.HasExtState(script_name, rec_toggle_state) then
 	reaper.SetExtState(script_name, rec_toggle_state, "true", false)
 end
+
+
+-- test if recording is stopped or paused (eg. stop button has been pressed while recording); in that case, then start a new session of recording
+is_stopped = reaper.GetPlayStateEx(0) & 0xFD		-- is_stopped == 02 in case of paused
+if is_stopped == 0 then
+	reaper.SetExtState(script_name, rec_toggle_state, "true", false)	-- we will start a new record
+end
+
 
 -- test whether this is record ON or OFF
 if reaper.GetExtState(script_name, rec_toggle_state) == "true" then
