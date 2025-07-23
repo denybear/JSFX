@@ -1,0 +1,4 @@
+I don't want a lover,120,drum
+Right as rain,90,nodrum
+Dancing in the moonlight,130,drum
+On the road again,100,nodrum
